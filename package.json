@@ -1,0 +1,24 @@
+{
+  "name": "apicache-redis-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for apicache using Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrgarciach/apicache-redis-poc.git"
+  },
+  "keywords": [
+    "cache",
+    "express",
+    "node"
+  ],
+  "author": "rrgarciach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrgarciach/apicache-redis-poc/issues"
+  },
+  "homepage": "https://github.com/rrgarciach/apicache-redis-poc#readme"
+}
