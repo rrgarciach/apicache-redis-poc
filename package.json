@@ -4,7 +4,8 @@
   "description": "Proof of concept for apicache using Redis.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/rrgarciach/apicache-redis-poc/issues"
   },
-  "homepage": "https://github.com/rrgarciach/apicache-redis-poc#readme"
+  "homepage": "https://github.com/rrgarciach/apicache-redis-poc#readme",
+  "dependencies": {
+    "apicache": "^1.0.0",
+    "express": "^4.15.4",
+    "redis": "^2.8.0",
+    "superagent": "^3.6.0"
+  }
 }
